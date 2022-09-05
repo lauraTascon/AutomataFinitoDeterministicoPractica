@@ -94,6 +94,7 @@ def genAFD():
             for error in error:
                 err = err + error + "\n"
             messagebox.showinfo("Advertencia", err)
+            print("dfsfsdf")
         else:
             try:
                 reader = Reader(reguExpresion.get())
